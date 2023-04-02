@@ -1,0 +1,137 @@
+body {
+    background-color: #e6e4df;
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: auto;
+    padding: 24px;
+    background-color: #e6e4df;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-column-gap: 12px;
+    /* border: 1px solid red;  */
+  }
+  
+  header {
+    grid-column: span 9;
+    text-align: center;
+  }
+
+  main {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 40px;
+    grid-column: span 9;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    font-family: new-kansas, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #5A5A5A;
+  }
+
+  main h2 {
+    border-bottom: 4px solid #5A5A5A;
+    font-family: new-kansas, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #5A5A5A;
+  }
+
+  #text {
+    grid-column: span 9;
+  }
+  
+  #text2 {
+    margin-top: 40px;
+    grid-column: span 7;
+  }
+  #text3 {
+    grid-column: span 6;
+  }
+  #text4 {
+    grid-column: span 4;
+    padding: 15px;
+  }
+  #phrase {
+    grid-column: span 2;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: -50px;
+    margin-top: 40px;
+    color:rgb(180, 176, 170);
+    background-color: #646262;
+  }
+
+  .welc {
+    display: block;
+    margin-top: -60px;
+    margin-left: 40%;
+    width: auto;
+  }
+  
+  main img {
+    grid-column: span 2;
+    padding: 0px;
+    margin-left: 1%;
+    margin-top: 30px;
+  }
+
+  nav {
+    grid-column: span 9;
+    top:2px;
+
+  }
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    margin: 0px 0px 0px 325px;
+    width: 750px;
+    padding: 0px;
+
+}
+
+main a{
+  color: #757575;
+  text-decoration: none;
+  transition: background-color 1.0s, width 1.0s, color 1.0s;
+  padding: 2px;
+
+}
+main a:hover{
+  background-color: #cecebea7;
+}
+
+main a:visited{
+  color: #757575;
+  text-decoration: none;
+}
+
+nav ul li {
+    border-right: 2px solid #5A5A5A;
+    text-align: center;
+    font-family: new-kansas, serif;
+    font-weight: 200;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    color: #858383;
+    margin: 5px 20px 5px 0px;
+
+}
+  nav ul li a {
+    padding: 5px 20px 5px 25px;
+    border-radius: 0px;
+    color: #858383;
+    text-decoration: none;
+    transition: background-color 1.0s, width 1.0s, color 1.0s;
+  }
+  nav ul li a:hover {
+    background-color: #cecebea7;
+    color: #4d4949;
+
+  }
+  
